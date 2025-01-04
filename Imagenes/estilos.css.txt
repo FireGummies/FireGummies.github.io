@@ -1,0 +1,113 @@
+<link rel="stylesheet" href="estilos.css">
+
+/* Estilo general */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg, yellow, orange, red); /* Fondo degradado */
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex: 1;
+}
+
+/* Barra lateral */
+.sidebar {
+    padding: 20px;
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para las imágenes de la barra lateral */
+.sidebar img {
+    width: 125px;
+    height: 125px;
+    margin-bottom: 15px;
+    border-radius: 50%; /* Imágenes redondeadas */
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sidebar img:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transform: scale(1.1);
+}
+
+/* Contenido principal */
+.content {
+    flex-grow: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, yellow, orange, red); /* Fondo degradado */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el título */
+.title {
+    font-size: 3em; /* Tamaño del título */
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(45deg, yellow, orange, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: none;
+}
+
+/* Subtítulo */
+.subtitle {
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(45deg, yellow, orange, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la barra superior */
+.topbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo negro semitransparente */
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.topbar:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo más oscuro al pasar el ratón */
+}
+
+/* Secciones de contenido */
+.info-section {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.2em; /* Tamaño del texto */
+    line-height: 1.6;
+    color: #333;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireGummies - Información</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%; 
+            background: linear-gradient(45deg, yellow, orange, red);
+            background-attachment: fixed; 
+            background-size: cover; 
+        }
+
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Barra lateral estilizada */
+        .sidebar {
+            padding: 20px;
+            width: 200px; /* Tamaño ajustado para íconos más grandes */
+            background-color: rgba(255, 255, 255, 0.8);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .sidebar img {
+            width: 150px; /* Tamaño mayor para íconos */
+            height: 150px;
+            margin-bottom: 15px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .sidebar img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+        }
+
+           /* Contenido principal estilizado */
+        .content {
+            flex-grow: 1;
+            padding: 40px;
+            font-size: 1.5em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg, yellow, orange, red); /* Mismo degradado que el fondo */
+            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra para el contenido */
+            border-left: 1px solid rgba(0, 0, 0, 0.1);
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+
+        .title {
+            font-size: 5em;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(45deg, yellow, orange, red);
+            -webkit-background-clip: text;
+            background-clip: text;
+            text-align: center;
+        }
+
+        .subtitle {
+            font-size: 2.5em;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(45deg, yellow, orange, red);
+            -webkit-background-clip: text;
+            background-clip: text;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .info-section {
+            margin-top: 30px;
+            padding: 20px;
+            background-color:  linear-gradient(45deg, yellow, orange, red);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .topbar {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            text-align: center;
+            font-size: 2.5em;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-transform: uppercase;
+        }
+
+        .topbar:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra superior -->
+    <div class="topbar">Bienvenidos a Fire Gummies</div>
+
+    <div class="container">
+        <!-- Barra lateral -->
+        <div class="sidebar">
+            <a href="#info-producto-1"><img src="imagenes/producto1.jpeg" alt="Producto 1"></a>
+            <a href="#info-producto-2"><img src="imagenes/producto2.jpeg" alt="Producto 2"></a>
+            <a href="#info-producto-3"><img src="imagenes/producto3.jpeg" alt="Producto 3"></a>
+            <a href="#info-producto-4"><img src="imagenes/producto4.jpeg" alt="Producto 4"></a>
+            <a href="#info-producto-5"><img src="imagenes/producto5.jpeg" alt="Producto 5"></a>
+            <a href="#info-producto-6"><img src="imagenes/producto6.jpeg" alt="Producto 6"></a>
+            <a href="#info-producto-7"><img src="imagenes/producto7.jpeg" alt="Producto 7"></a>
+        </div>
+
+   <!-- Contenido principal -->
+       
+ <div class="content">
+           
+ <div class="title">Fire Gummies</div>
+           
+ <div class="subtitle">Quieres ser cool?</div> 
+            <!-- Separación del texto "Quieres ser cool?" -->
+           
+ <div>Únete al equipo Gummies y juntos seremos los más Fire del mercado.
+                Con productos de alta calidad y buen sabor venimos a revolucionar el mercado.
+                <p> Maneras de contactarnos:</p>
+                <p> FireGummies346@gmail.com</p>
+                <p> 8682418592</p>
+            </div>
+
+            <!-- Secciones de productos -->
+            <div id="info-producto-1" class="info-section">
+                <h2>Sabor Sandia</h2>
+                <p>Cada bolsa cuenta con una presentacion de 65gr de gomitas enchiladas de grenetina de cada sabor.</p>
+            </div>
+            <div id="info-producto-2" class="info-section">
+                <h2>Sabor Piña</h2>
+                <p>Cada bolsa cuenta con una presentacion de 65gr de gomitas enchiladas de grenetina de cada sabor.</p>
+            </div>
+            <div id="info-producto-3" class="info-section">
+                <h2>Sabor Mora Azul</h2>
+                <p>Cada bolsa cuenta con una presentacion de 65gr de gomitas enchiladas de grenetina de cada sabor.</p>
+            </div>
+            <div id="info-producto-4" class="info-section">
+                <h2>Sabor Mango</h2>
+                <p>Cada bolsa cuenta con una presentacion de 65gr de gomitas enchiladas de grenetina de cada sabor.</p>
+            </div>
+            <div id="info-producto-5" class="info-section">
+                <h2>Sabor Cereza</h2>
+                <p>Cada bolsa cuenta con una presentacion de 65gr de gomitas enchiladas de grenetina de cada sabor.</p>
+            </div>
+            <div id="info-producto-6" class="info-section">
+                <h2>Sabor Fresa</h2>
+                <p>Cada bolsa cuenta con una presentacion de 65gr de gomitas enchiladas de grenetina de cada sabor.</p>
+            </div>
+            <div id="info-producto-7" class="info-section">
+                <h2>Sabor Uva</h2>
+                <p>Cada bolsa cuenta con una presentacion de 65gr de gomitas enchiladas de grenetina de cada sabor.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
