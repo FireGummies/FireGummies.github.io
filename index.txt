@@ -243,5 +243,9 @@
 
     <!-- Botón flotante para ir al inicio -->
     <button class="back-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">↑</button>
+<footer>
+    <a href="PRIVACY.md">Política de Privacidad</a>
+</footer>
+
 </body>
 </html>
