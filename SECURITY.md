@@ -20,4 +20,4 @@ Si tienes preguntas sobre esta política, no dudes en escribirnos a [FireGummies
 
 ---
 
-Última actualización: [Fecha de hoy]
+Última actualización: 05/01/2025
