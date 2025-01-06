@@ -118,6 +118,10 @@
             background-color: darkred;
         }
 
+        .button-email::before {
+            content: '✉️ ';
+        }
+
         .button-whatsapp {
             background-color: green;
         }
