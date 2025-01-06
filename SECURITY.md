@@ -6,7 +6,7 @@ En Fire Gummies valoramos tu privacidad. No recopilamos, almacenamos ni procesam
 Nuestra página no incluye formularios, herramientas de seguimiento ni cookies que capturen información sobre los usuarios. 
 
 Cualquier contacto con nosotros será exclusivamente a través de:
-- Enlaces directos a servicios externos, como [WhatsApp](https://wa.me/8682418592).
+- Enlaces directos a servicios externos, como [WhatsApp](https://wa.me/8685994586).
 - Correo electrónico mediante [FireGummies364@gmail.com](mailto:FireGummies364@gmail.com).
 
 ## Enlaces externos
